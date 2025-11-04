@@ -1,0 +1,22 @@
+.container{
+    height: 1200px;
+    display: flex;
+    justify-content: space-between; /*espaçando os elementos iguamente*/
+    margin:  0 auto;
+    flex-wrap: wrap; /*quando os filhos ultrapassae 1200px - descem e fazem uma nova linha*/
+    background-color: aqua;
+    
+}
+
+.min-heigth{
+    min-height: 75% ;
+}
+
+.start{
+    justify-content: flex-start; /*joga os conteúdos para o inicio*/
+}
+
+.column{
+    flex-direction: column;
+    justify-content: flex-start;
+}
