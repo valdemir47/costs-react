@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    justify-content: space-between; /*espaçamento igual p/todos*/
+    background-color: #222;
+    padding: 1em;
+}
+
+.list {
+    display: flex;
+    list-style:none; /*tira dos marcadores*/
+    align-items: center ; /*alinhamento dos intes: centro*/
+}
+
+.item a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.intem a:hover{
+    color: #FFBB33;
+    
+}/*quando passar o curso por cims*/
