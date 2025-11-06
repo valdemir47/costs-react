@@ -1,8 +1,7 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-// MUDANÇA: Usando FaPhone do Font Awesome (fa) para garantir que a importação funcione
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'; //importando os componentes e funcionalidades do router 
 import { FaPhone } from 'react-icons/fa';
 
-// Componentes de Página (Removi o .js da extensão para voltar à convenção padrão)
+
 import Home from './components/pages/Home';
 import Contact from './components/pages/Contact';
 import Company from './components/pages/Company';

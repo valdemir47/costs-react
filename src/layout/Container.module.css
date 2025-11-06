@@ -1,5 +1,5 @@
 .container{
-    /*height: 1200px;*/
+    width: 1200px;
     display: flex;
     justify-content: space-between; /*espaçando os elementos iguamente*/
     margin:  0 auto;
@@ -8,8 +8,9 @@
     
 }
 
-.min-heigth{
-    min-height: 75% ;
+.min-height{
+    
+    min-height: 1200px;
 }
 
 .start{

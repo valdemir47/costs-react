@@ -5,18 +5,20 @@
     padding: 1em;
 }
 
-.list {
+.list{
     display: flex;
     list-style:none; /*tira dos marcadores*/
     align-items: center ; /*alinhamento dos intes: centro*/
+   
 }
 
 .item a{
+    margin-right: 1em; 
     color: #fff;
     text-decoration: none;
 }
 
-.intem a:hover{
+.item a:hover{
     color: #FFBB33;
     
 }/*quando passar o curso por cims*/
