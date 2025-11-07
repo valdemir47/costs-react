@@ -13,12 +13,12 @@ function Navbar(){
                     <img src={logo} alt="Costs"/>
                 </Link>
                 <ul class={styles.list}>
-                    <li class={styles.item}> <Link to ='/'>Home</Link> </li>
-                    <li class={styles.item}><Link to ='/contact'>Contato</Link></li>
-                    <li class={styles.item}><Link to ='/company'>Empresa</Link></li>
-                    <li class={styles.item}><Link to ='/netproject'>Novo Projeto</Link></li>
-
-                </ul>
+                    <li className={styles.item}> <Link to ='/'>Home</Link> </li>
+                    <li className={styles.item}><Link to ='/projects'>Projetos</Link></li>
+                    <li className={styles.item}><Link to ='/company'>Empresa</Link></li>
+                    <li className={styles.item}><Link to ='/contact'>Contato</Link></li>
+              className
+                 </ul>
             </Container>
         </nav>
 

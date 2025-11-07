@@ -6,6 +6,8 @@ import Home from './components/pages/Home';
 import Contact from './components/pages/Contact';
 import Company from './components/pages/Company';
 import NewProject from './components/pages/NewProject';
+import Projects from './components/pages/Projects';
+
 import Container from './layout/Container';
 import Navbar from './layout/Navbar';
 import Footer from './layout/Footer';
@@ -25,6 +27,7 @@ function App() {
          
             {/* SINTAXE CORRETA do React Router v6: usa 'element' */}
             <Route path='/' element={<Home />} />
+            <Route path='/projects' element={<Projects />} />
             <Route path='/company' element={<Company />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/newproject' element={<NewProject />} />  
