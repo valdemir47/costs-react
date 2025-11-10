@@ -3,10 +3,10 @@
     color: #FFF;
     padding: 0.5em 1em; /*espaçamento horizontal e vertical*/
     text-decoration: none; /*tirando o _*/
-    transition: 0.5s; /*houver de 0.5 segundos*/
+    transition: 0.5s; /*hover de 0.5 segundos*/
 }
 
 
-.btn:houver{
+.btn:hover{
     color: #ffbb33;
 }
