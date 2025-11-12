@@ -9,14 +9,11 @@
     font-weight: bold;
 }
 
-.form_control input {
+.form_control select {
     padding: .7em;
     border-radius:0;
     border-radius: none;
 }
 
-.form_control input::placeholder {
-  color: #7b7b7b;
-}
 
 /*da forma acima, será preciso apenas importar uma classe*/
